@@ -1,0 +1,79 @@
+2015-11-16
+-Request added: M249 machine gun now has a semi-auto fire rate
+
+2015-11-16
+-Removed sway from weapons and throwables
+
+2015-11-18
+-Request declined: Re-enable the slide feature
+-Request added: Increased player slot to 12
+-Request added: Admins can now use "noclip" from the admin menu
+-Added the insurgent shotgun and mp40 weapon to the "Secondary" slot
+-Request added: M16 can now use the MK4 scope (removed a duplicated line in theater file)
+-Shotguns can now use the 3.4x scope (because why not)
+
+2015-11-21
+-Added another "Secondary" slot
+-Removed "Explosive 5" and "Explosive 4" slot
+-Revised Rules/SOP that pop-up at the bottom-left corner
+-Request added: Shortened the time interval to pop-up the rules/SOP
+-Request added: Moved the MK18 rifle to the "Secondary" slot
+-Default bot difficulty moved from 1.0 to 2.0 (0-Forgiving, 1-Normal, 2-Unforgiving, 3-Brutal)
+
+2015-11-22
+-thetheaterfile013.theater
+-Gave bots a lot more supply points
+-Increased max bot count to 36. Minimum is 30.
+-Machine gunner bots now have heavy armor
+-Redacted: Bots that have the makarov pistol now have the extended pistol magazine
+-Sapper bots (the ones who carry an RPG) now have a suppressed FAL
+-Sniper bots now have a 7x scope on a mosin
+-Fixed the Shellshock map. It was not a checkpoint coop map.
+-Maps are no longer in the compressed format to accomodate users with less powerful CPUs. The loading indicator should no longer look like it is frozen to the user as it no longer needs to uncompress the map files
+
+-Added ~20 custom maps to the existing custom map list. Full custom map list here:
+	almaden_coop_v1_1 checkpoint
+	amber_spirits_coop checkpoint
+	anbar_coop checkpoint
+	anbar_nights_coop checkpoint
+	angle_iron_coop_beta5 checkpoint
+	badel_coop_v1 checkpoint
+	badlands_coop_b1 checkpoint
+	baghdad_coop_b3 checkpoint
+	bb_arena_coop checkpoint
+	bridge_coop_final checkpoint
+	bunker_busting_coopv1_4 checkpoint
+	caves_coop3 checkpoint
+	clean_sweep_coop_beta3 checkpoint
+	convoy_day_coop_final checkpoint
+	convoy_night_apc_coop_v1_4 checkpoint
+	dry_canal_coop_v4 checkpoint
+	dusty_anguish_coop checkpoint
+	dusty_anguish_coopv1_1 checkpoint
+	dusty_nights_coopv1_1 checkpoint
+	fortress_coop_beta5 checkpoint
+	game_day_coopv1_3 checkpoint
+	gizab_b1_coop checkpoint
+	haditha_dam_coop_finale checkpoint
+	healthcenter_coop_v1_4 checkpoint
+	hurtlocker_coop_legacy_ws checkpoint
+	ins_abdallah_new_coop checkpoint
+	ins_abdallah_new_night_coop checkpoint
+	jack_hammer_coopv1_2 checkpoint
+	jail_break_coopv1_2 checkpoint
+	karkar_coop_v1_1 checkpoint
+	launch_control_coopv1_6 checkpoint
+	nightfall_coopv1_2 checkpoint
+	osama_b2_checkpoint checkpoint
+	shellshock_2 checkpoint
+	shop_invasion_coop_b2 checkpoint
+	takbar_b5 checkpoint checkpoint
+	the_burbs_coop checkpoint
+	the_raid_coopb4 checkpoint
+	tunnel_rats_coopv1_4 checkpoint
+
+2015-11-24
+-Notes: These bot changes are meant to relieve the dull, same four kinds of bots. They are meant to encourage replayability and dynamic gameplay that challenge the players. The player should be more cautious and careful around a heavy armored machine gunner. The introduction of the sniper and suppressed bot encourages the player to be more aware of their surroundings and open areas. Players should be wary not to bunch up and instead spread out as a result of a slight increase in the number of RPG bots. More bots now carry a grenade as a reminder to stay attentive to the sound of one being thrown.
+-Added sniper class (sharpshooter template) to use the mosin for bots
+-Added suppressed fighter class (fighter template) to use the suppressed aks74u for bots
+-Adjusted frequency of new bot classes as well as slightly increasing number of RPG bots.
