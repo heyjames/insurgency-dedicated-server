@@ -30,7 +30,6 @@
 -Sniper bots now have a 7x scope on a mosin
 -Fixed the Shellshock map. It was not a checkpoint coop map.
 -Maps are no longer in the compressed format to accomodate users with less powerful CPUs. The loading indicator should no longer look like it is frozen to the user as it no longer needs to uncompress the map files
-
 -Added ~20 custom maps to the existing custom map list. Full custom map list here:
 	almaden_coop_v1_1 checkpoint
 	amber_spirits_coop checkpoint
@@ -78,3 +77,6 @@
 -Added sniper class (sharpshooter template) to use the mosin for bots
 -Added suppressed fighter class (fighter template) to use the suppressed aks74u for bots
 -Adjusted frequency of new bot classes as well as slightly increasing number of RPG bots.
+
+-thetheaterfile015.theater
+-L1A1 weapon can now use the 7x scope.
