@@ -73,6 +73,7 @@
 	tunnel_rats_coopv1_4 checkpoint
 
 2015-11-24
+-thetheaterfile014.theater
 -Notes: These bot changes are meant to relieve the dull, same four kinds of bots. They are meant to encourage replayability and dynamic gameplay that challenge the players. The player should be more cautious and careful around a heavy armored machine gunner. The introduction of the sniper and suppressed bot encourages the player to be more aware of their surroundings and open areas. Players should be wary not to bunch up and instead spread out as a result of a slight increase in the number of RPG bots. More bots now carry a grenade as a reminder to stay attentive to the sound of one being thrown.
 -Added sniper class (sharpshooter template) to use the mosin for bots
 -Added suppressed fighter class (fighter template) to use the suppressed aks74u for bots
