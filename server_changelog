@@ -40,6 +40,7 @@
 	badlands_coop_b1 checkpoint
 	baghdad_coop_b3 checkpoint
 	bb_arena_coop checkpoint
+	block_partyv1_1_coop checkpoint
 	bridge_coop_final checkpoint
 	bunker_busting_coopv1_4 checkpoint
 	caves_coop3 checkpoint
@@ -55,6 +56,7 @@
 	gizab_b1_coop checkpoint
 	haditha_dam_coop_finale checkpoint
 	healthcenter_coop_v1_4 checkpoint
+	hijacked_redux_v1_1 checkpoint
 	hurtlocker_coop_legacy_ws checkpoint
 	ins_abdallah_new_coop checkpoint
 	ins_abdallah_new_night_coop checkpoint
@@ -70,6 +72,8 @@
 	the_burbs_coop checkpoint
 	the_raid_coopb4 checkpoint
 	tunnel_rats_coopv1_4 checkpoint
+	warehouse_coopv2 checkpoint
+	winter_rescue_v1 checkpoint
 
 2015-11-24
 -thetheaterfile014.theater
@@ -86,3 +90,11 @@
 -Increased objective capture time
 -Added MOTD
 -Decreased time interval to show rules in chat
+
+2015-11-26
+-Upgraded CPU from single core to dual core; increased RAM from 1GB to 2GB; and increased SDD space from 20GB to 40GB
+
+2015-11-30
+-Added warehouse_coopv2 checkpoint and block_partyv1_1_coop checkpoint maps
+-Bot specialist now carries a frag
+-Minimum number of bots increased from 30 to 32
