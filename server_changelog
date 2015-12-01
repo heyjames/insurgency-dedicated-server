@@ -47,7 +47,10 @@
 	clean_sweep_coop_beta3 checkpoint
 	convoy_day_coop_final checkpoint
 	convoy_night_apc_coop_v1_4 checkpoint
+	cs_motel_coop_nd_v1_3 checkpoint
+	cs_officeb3_coop_v1_5 checkpoint
 	dry_canal_coop_v4 checkpoint
+	dust_coop_v1_1 checkpoint
 	dusty_anguish_coop checkpoint
 	dusty_anguish_coopv1_1 checkpoint
 	dusty_nights_coopv1_1 checkpoint
@@ -69,14 +72,16 @@
 	ps7_co_b91 checkpoint
 	ps7_coop checkpoint
 	ps7z_coop checkpoint
-	shellshock_2 checkpoint
+	shellshock_v1_1 checkpoint
 	shop_invasion_coop_b2 checkpoint
+	shrine_coop_v1 checkpoint
 	takbar_b5 checkpoint checkpoint
 	the_burbs_coop checkpoint
 	the_raid_coopb4 checkpoint
 	tunnel_rats_coopv1_4 checkpoint
 	warehouse_coopv2 checkpoint
 	winter_rescue_v1 checkpoint
+	zagros_convoy_b5 checkpoint
 
 2015-11-24
 -thetheaterfile014.theater
@@ -98,8 +103,19 @@
 -Upgraded CPU from single core to dual core; increased RAM from 1GB to 2GB; and increased SDD space from 20GB to 40GB
 
 2015-11-30
--Added warehouse_coopv2 checkpoint and block_partyv1_1_coop checkpoint maps
+-Added:
+	warehouse_coopv2 checkpoint
+	block_partyv1_1_coop checkpoint
 -Bot specialist now carries a frag
 -Minimum number of bots increased from 30 to 32
--Added ps7_co_b91 checkpoint, ps7_coop checkpoint, ps7z_coop checkpoint maps
+-Added:
+	ps7_co_b91 checkpoint
+	ps7_coop checkpoint
+	ps7z_coop checkpoint
 -Checkpoint deteriorate time from "6" to "1" (checkpoint resets to zero right when the last person steps off)
+-Added:
+	cs_motel_coop_nd_v1_3 checkpoint
+	cs_officeb3_coop_v1_5 checkpoint
+	dust_coop_v1_1 checkpoint
+	shrine_coop_v1 checkpoint
+	zagros_convoy_b5 checkpoint
