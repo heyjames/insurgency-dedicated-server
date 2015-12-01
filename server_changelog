@@ -66,6 +66,9 @@
 	launch_control_coopv1_6 checkpoint
 	nightfall_coopv1_2 checkpoint
 	osama_b2_checkpoint checkpoint
+	ps7_co_b91 checkpoint
+	ps7_coop checkpoint
+	ps7z_coop checkpoint
 	shellshock_2 checkpoint
 	shop_invasion_coop_b2 checkpoint
 	takbar_b5 checkpoint checkpoint
@@ -96,7 +99,7 @@
 
 2015-11-30
 -Added warehouse_coopv2 checkpoint and block_partyv1_1_coop checkpoint maps
--Reinstated embassy_coop checkpoint
 -Bot specialist now carries a frag
 -Minimum number of bots increased from 30 to 32
-
+-Added ps7_co_b91 checkpoint, ps7_coop checkpoint, ps7z_coop checkpoint maps
+-Checkpoint deteriorate time from "6" to "1" (checkpoint resets to zero right when the last person steps off)
