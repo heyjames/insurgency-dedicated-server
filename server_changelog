@@ -96,5 +96,7 @@
 
 2015-11-30
 -Added warehouse_coopv2 checkpoint and block_partyv1_1_coop checkpoint maps
+-Reinstated embassy_coop checkpoint
 -Bot specialist now carries a frag
 -Minimum number of bots increased from 30 to 32
+
