@@ -99,6 +99,10 @@
 -Added MOTD
 -Decreased time interval to show rules in chat
 
+2015-11-25
+-Added semi-auto fire rate to MP40 and Sterling
+-Removed Makarov from the Sapper bot class
+
 2015-11-26
 -Upgraded CPU from single core to dual core; increased RAM from 1GB to 2GB; and increased SDD space from 20GB to 40GB
 
@@ -106,16 +110,24 @@
 -Added:
 	warehouse_coopv2 checkpoint
 	block_partyv1_1_coop checkpoint
--Bot specialist now carries a frag
--Minimum number of bots increased from 30 to 32
--Added:
 	ps7_co_b91 checkpoint
 	ps7_coop checkpoint
 	ps7z_coop checkpoint
--Checkpoint deteriorate time from "6" to "1" (checkpoint resets to zero right when the last person steps off)
--Added:
 	cs_motel_coop_nd_v1_3 checkpoint
 	cs_officeb3_coop_v1_5 checkpoint
 	dust_coop_v1_1 checkpoint
 	shrine_coop_v1 checkpoint
 	zagros_convoy_b5 checkpoint
+-Bot specialist now carries a frag
+-Minimum number of bots increased from 30 to 32
+-Checkpoint deteriorate time from "6" to "1" (checkpoint resets to zero right when the last person steps off)
+
+2015-12-01
+-Added RPG7, AKM, and AKS74U to security team
+-Changed the first rifleman of Security's bravo team to the leader class
+-Added VIP class to both of security's teams
+-Slightly changed C4 damage values
+-Removed Secondary 2 and added Primary 2
+-Moved automatic weapons from Secondary to Primary
+-Added an undercover insurgent class to security bravo team
+-Chest carrier now provides fewer magazines
