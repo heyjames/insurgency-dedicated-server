@@ -38,7 +38,7 @@
 	angle_iron_coop_beta5 checkpoint
 	badel_coop_v1 checkpoint
 	badlands_coop_b1 checkpoint
-	baghdad_coop_b3 checkpoint
+	baghdad_b5 checkpoint
 	bb_arena_coop checkpoint
 	block_partyv1_1_coop checkpoint
 	bridge_coop_final checkpoint
@@ -49,6 +49,7 @@
 	convoy_night_apc_coop_v1_4 checkpoint
 	cs_motel_coop_nd_v1_3 checkpoint
 	cs_officeb3_coop_v1_5 checkpoint
+	depot_coop checkpoint
 	dry_canal_coop_v4 checkpoint
 	dust_coop_v1_1 checkpoint
 	dusty_anguish_coop checkpoint
@@ -82,6 +83,10 @@
 	warehouse_coopv2 checkpoint
 	winter_rescue_v1 checkpoint
 	zagros_convoy_b5 checkpoint
+	
+	---shansharpe is missing map updates below---
+	baghdad_b5
+	depot_coop
 
 2015-11-24
 -thetheaterfile014.theater
@@ -136,7 +141,9 @@
 -A couple "Rifleman" classes are now called "Riflewoman"
 ***INSMilitia's server are now updated.***
 
-To-do List
--Add Depot checkpoint map
--Disable reflecttk?
--Disable kick tkers?
+2015-12-05
+-Added depot_coop checkpoint map
+-Changed baghdad_coop_b3 to baghdad_b5 checkpoint after a player mentioned cars were missing in one session
+-Removed ReflectTk plugin
+-Friendly fire set from 25% to 50% of actual damage
+-Disabled auto-kick team killers
