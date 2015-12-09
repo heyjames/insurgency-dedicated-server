@@ -151,3 +151,14 @@
 2015-12-08
 -Moved server back to $10/mo payment plan
 -Disabled Primary 2 slot and restored Secondary 2 slot along with its automatic weapons
+
+2015-12-09
+-Slightly increased number of magazines
+-Enabled Primary 2 slot
+-Moved MK18 from Secondary to Primary
+-Chest rig and chest carrier alternates between a Primary 2 and Secondary 2; can never have both
+-Grenade and smoke launchers now have 4 rounds instead of 0
+-Moved AKM from Secondary to Primary because it can use the grenade and smoke launcher
+-Selecting a grenade or smoke launcher does not disable the explosive slots
+-Fixed ability to select the "X" to remove items in one click by adding a non zero value to either weight or cost to all items
+-Reinstated sm_respawn ability to administrators
