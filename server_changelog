@@ -1,24 +1,95 @@
-2015-11-16
--Request added: M249 machine gun now has a semi-auto fire rate
+Special thanks:
 
-2015-11-16
--Removed sway from weapons and throwables
+Spliffz
+http://insmilitia.com/
+Server #1 - 149.210.212.128:27015
+Server #2 - 149.210.214.248:27015
 
-2015-11-18
--Request declined: Re-enable the slide feature
--Request added: Increased player slot to 12
--Request added: Admins can now use "noclip" from the admin menu
--Added the insurgent shotgun and mp40 weapon to the "Secondary" slot
--Request added: M16 can now use the MK4 scope (removed a duplicated line in theater file)
--Shotguns can now use the 3.4x scope (because why not)
+Jay Ballou
+http://jballou.com/insurgency/
 
-2015-11-21
--Added another "Secondary" slot
--Removed "Explosive 5" and "Explosive 4" slot
--Revised Rules/SOP that pop-up at the bottom-left corner
--Request added: Shortened the time interval to pop-up the rules/SOP
--Request added: Moved the MK18 rifle to the "Secondary" slot
--Default bot difficulty moved from 1.0 to 2.0 (0-Forgiving, 1-Normal, 2-Unforgiving, 3-Brutal)
+ConnorHD
+http://connorhd.co.uk/
+Server #1 - 23.94.101.11:28015
+Server #2 - 23.94.101.109:27015
+
+---------------------------------
+
+2015-12-09
+-Slightly increased number of magazines
+-Enabled Primary 2 slot
+-Moved MK18 from Secondary to Primary
+-Chest rig and chest carrier alternates between a Primary 2 and Secondary 2; can never have both
+-Grenade and smoke launchers now have 4 rounds instead of 0
+-Moved AKM from Secondary to Primary because it can use the grenade and smoke launcher
+-Selecting a grenade or smoke launcher does not disable the explosive slots
+-Fixed ability to select the "X" to remove items in one click by adding a non zero value to either weight or cost to all items
+-Reinstated sm_respawn ability to administrators
+
+2015-12-08
+-Moved server back to $10/mo payment plan
+-Disabled Primary 2 slot and restored Secondary 2 slot along with its automatic weapons
+-Changed Riflewoman back to Rifleman
+
+2015-12-05
+-Added depot_coop checkpoint map
+-Changed baghdad_coop_b3 to baghdad_b5 checkpoint after a player mentioned cars were missing in one session
+-Removed ReflectTk plugin
+-Friendly fire set from 25% to 50% of actual damage
+-Disabled auto-kick team killers
+
+2015-12-04
+-Changed the first rifleman of Security's bravo team to the leader class
+-Added VIP class to both of security's teams
+-Slightly changed C4 damage values
+-Removed Secondary 2 and added Primary 2
+-Moved automatic weapons from Secondary to Primary
+-Chest carrier now provides fewer magazines
+-A couple "Rifleman" classes are now called "Riflewoman"
+***INSMilitia's server are now updated.***
+
+2015-12-01
+-Added RPG7, AKM, and AKS74U to security team
+-Disabled sm_respawn for everyone
+
+2015-11-30
+-Added:
+	warehouse_coopv2 checkpoint
+	block_partyv1_1_coop checkpoint
+	ps7_co_b91 checkpoint
+	ps7_coop checkpoint
+	ps7z_coop checkpoint
+	cs_motel_coop_nd_v1_3 checkpoint
+	cs_officeb3_coop_v1_5 checkpoint
+	dust_coop_v1_1 checkpoint
+	shrine_coop_v1 checkpoint
+	zagros_convoy_b5 checkpoint
+-Bot specialist now carries a frag
+-Minimum number of bots increased from 30 to 32
+-Checkpoint deteriorate time from "6" to "1" (checkpoint resets to zero right when the last person steps off)
+
+2015-11-26
+-Upgraded CPU from single core to dual core; increased RAM from 1GB to 2GB; and increased SDD space from 20GB to 40GB
+
+2015-11-25
+-Added semi-auto fire rate to MP40 and Sterling
+-Removed Makarov from the Sapper bot class
+
+2015-11-24
+-thetheaterfile014.theater
+-Notes: These bot changes are meant to relieve the dull, same four kinds of bots. They are meant to encourage replayability and dynamic gameplay that challenge the players. The player should be more cautious and careful around a heavy armored machine gunner. The introduction of the sniper and suppressed bot encourages the player to be more aware of their surroundings and open areas. Players should be wary not to bunch up and instead spread out as a result of a slight increase in the number of RPG bots. More bots now carry a grenade as a reminder to stay attentive to the sound of one being thrown.
+-Added sniper class (sharpshooter template) to use the mosin for bots
+-Added suppressed fighter class (fighter template) to use the suppressed aks74u for bots
+-Adjusted frequency of new bot classes as well as slightly increasing number of RPG bots.
+
+-thetheaterfile015.theater
+-L1A1 weapon can now use the 7x scope.
+-Disabled radio filter and enabled voice chat across teams including spectators
+-Added winter_rescue_v1 checkpoint and hijacked_redux_v1_1 checkpoint maps
+-Added a plugin that allows an admin to move a player to spectator mode
+-Increased objective capture time
+-Added MOTD
+-Decreased time interval to show rules in chat
 
 2015-11-22
 -thetheaterfile013.theater
@@ -88,77 +159,40 @@
 	baghdad_b5
 	depot_coop
 
-2015-11-24
--thetheaterfile014.theater
--Notes: These bot changes are meant to relieve the dull, same four kinds of bots. They are meant to encourage replayability and dynamic gameplay that challenge the players. The player should be more cautious and careful around a heavy armored machine gunner. The introduction of the sniper and suppressed bot encourages the player to be more aware of their surroundings and open areas. Players should be wary not to bunch up and instead spread out as a result of a slight increase in the number of RPG bots. More bots now carry a grenade as a reminder to stay attentive to the sound of one being thrown.
--Added sniper class (sharpshooter template) to use the mosin for bots
--Added suppressed fighter class (fighter template) to use the suppressed aks74u for bots
--Adjusted frequency of new bot classes as well as slightly increasing number of RPG bots.
+2015-11-21
+-Added another "Secondary" slot
+-Removed "Explosive 5" and "Explosive 4" slot
+-Revised Rules/SOP that pop-up at the bottom-left corner
+-Request added: Shortened the time interval to pop-up the rules/SOP
+-Request added: Moved the MK18 rifle to the "Secondary" slot
+-Default bot difficulty moved from 1.0 to 2.0 (0-Forgiving, 1-Normal, 2-Unforgiving, 3-Brutal)
 
--thetheaterfile015.theater
--L1A1 weapon can now use the 7x scope.
--Disabled radio filter and enabled voice chat across teams including spectators
--Added winter_rescue_v1 checkpoint and hijacked_redux_v1_1 checkpoint maps
--Added a plugin that allows an admin to move a player to spectator mode
--Increased objective capture time
--Added MOTD
--Decreased time interval to show rules in chat
+2015-11-18
+-Request declined: Re-enable the slide feature
+-Request added: Increased player slot to 12
+-Request added: Admins can now use "noclip" from the admin menu
+-Added the insurgent shotgun and mp40 weapon to the "Secondary" slot
+-Request added: M16 can now use the MK4 scope (removed a duplicated line in theater file)
+-Shotguns can now use the 3.4x scope (because why not)
 
-2015-11-25
--Added semi-auto fire rate to MP40 and Sterling
--Removed Makarov from the Sapper bot class
+2015-11-16
+-Removed sway from weapons and throwables
 
-2015-11-26
--Upgraded CPU from single core to dual core; increased RAM from 1GB to 2GB; and increased SDD space from 20GB to 40GB
+2015-11-16
+-Request added: M249 machine gun now has a semi-auto fire rate
 
-2015-11-30
--Added:
-	warehouse_coopv2 checkpoint
-	block_partyv1_1_coop checkpoint
-	ps7_co_b91 checkpoint
-	ps7_coop checkpoint
-	ps7z_coop checkpoint
-	cs_motel_coop_nd_v1_3 checkpoint
-	cs_officeb3_coop_v1_5 checkpoint
-	dust_coop_v1_1 checkpoint
-	shrine_coop_v1 checkpoint
-	zagros_convoy_b5 checkpoint
--Bot specialist now carries a frag
--Minimum number of bots increased from 30 to 32
--Checkpoint deteriorate time from "6" to "1" (checkpoint resets to zero right when the last person steps off)
 
-2015-12-01
--Added RPG7, AKM, and AKS74U to security team
--Disabled sm_respawn for everyone
 
-2015-12-04
--Changed the first rifleman of Security's bravo team to the leader class
--Added VIP class to both of security's teams
--Slightly changed C4 damage values
--Removed Secondary 2 and added Primary 2
--Moved automatic weapons from Secondary to Primary
--Chest carrier now provides fewer magazines
--A couple "Rifleman" classes are now called "Riflewoman"
-***INSMilitia's server are now updated.***
 
-2015-12-05
--Added depot_coop checkpoint map
--Changed baghdad_coop_b3 to baghdad_b5 checkpoint after a player mentioned cars were missing in one session
--Removed ReflectTk plugin
--Friendly fire set from 25% to 50% of actual damage
--Disabled auto-kick team killers
 
-2015-12-08
--Moved server back to $10/mo payment plan
--Disabled Primary 2 slot and restored Secondary 2 slot along with its automatic weapons
 
-2015-12-09
--Slightly increased number of magazines
--Enabled Primary 2 slot
--Moved MK18 from Secondary to Primary
--Chest rig and chest carrier alternates between a Primary 2 and Secondary 2; can never have both
--Grenade and smoke launchers now have 4 rounds instead of 0
--Moved AKM from Secondary to Primary because it can use the grenade and smoke launcher
--Selecting a grenade or smoke launcher does not disable the explosive slots
--Fixed ability to select the "X" to remove items in one click by adding a non zero value to either weight or cost to all items
--Reinstated sm_respawn ability to administrators
+
+
+
+
+
+
+
+
+
+
