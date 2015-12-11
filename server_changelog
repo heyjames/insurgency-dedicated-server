@@ -19,6 +19,10 @@ Server #2 - 23.94.101.109:27015
 -Removed M249 from Recon Leader class
 -Increased bot sniper frequency
 -Added M1A1
+-Increased resupply penalty time
+-Increased preround timer to wait for players to load in and get ready
+-Increased bot shooting rpg from 2 to 3 bunched up players
+-Recon Leader can no longer use the M249
 
 2015-12-09
 -Slightly increased number of magazines
