@@ -18,6 +18,11 @@ Server #2 - 23.94.101.109:27015
 -Drum mag for Galil weighs a lot
 -Increased first round timer from 15 seconds to 25 seconds
 -Moved the AKS74U to Primary weapons slot
+-Normal and finale counter attack delay set to 10 seconds after capture
+-Normal counter attack timer set from 65 to 90
+-Finale counter attack set from 120 to 170
+-Finale counter attack interval set from 60 to 40
+-Bots can no longer recapture objective
 
 2015-12-11
 -Increased amount of magazines carried
