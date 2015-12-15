@@ -14,6 +14,14 @@ Server #1 - 23.94.101.11:28015
 Server #2 - 23.94.101.109:27015
 
 ---------------------------------
+2015-12-15
+-Remove smokes from bots as they give human players an advantage
+-Give bots molotovs/am13 as they give human players a disadvantage (we can't see past fire--they can; breaks our formation)
+-Add more insurgent weapons to have 0 weight and cost
+-Add mp_weaponstay 1 to ins-server.cfg
+-Reduced speed walk and sprint speed
+
+
 2015-12-14
 -Removed weight on galil drum mag
 -Added a specialist class
