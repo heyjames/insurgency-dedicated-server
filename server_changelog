@@ -19,7 +19,7 @@ Server #2 - 23.94.101.109:27015
 -Added a specialist class
 -Only specialist and support can use drum mag on galil
 -Added a flare gun to VIP and Recon Leader security classes
--Added panama_canal_a3 checkpoint
+-Added panama_canal_a3 checkpoint and haditha_ws checkpoint
 -Finale counter attack begins 20 seconds after player spawns to give new spawns time to regroup
 -Finale counter attack wave changed to every 20 seconds
 -Made the M590 into AA-12 and toz into saiga-12 (saiga-12 has more recoil but larger capacity "drum mag")
@@ -162,6 +162,7 @@ Server #2 - 23.94.101.109:27015
 	game_day_coopv1_3 checkpoint
 	gizab_b1_coop checkpoint
 	haditha_dam_coop_finale checkpoint
+	haditha_ws checkpoint
 	healthcenter_coop_v1_4 checkpoint
 	hijacked_redux_v1_1 checkpoint
 	hurtlocker_coop_legacy_ws checkpoint
@@ -191,6 +192,7 @@ Server #2 - 23.94.101.109:27015
 	---shansharpe is missing map updates below---
 	baghdad_b5
 	depot_coop
+	haditha_ws
 	panama_canal_a3
 
 2015-11-21
