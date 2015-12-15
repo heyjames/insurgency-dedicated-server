@@ -18,7 +18,7 @@ Server #2 - 23.94.101.109:27015
 -Remove smokes from bots as they give human players an advantage
 -Give bots molotovs/am13 as they give human players a disadvantage (we can't see past fire--they can; breaks our formation)
 -Add more insurgent weapons to have 0 weight and cost
--Add mp_weaponstay 1 to ins-server.cfg
+-Add mp_weaponstay 1 to default_server_checkpoint.cfg
 -Reduced speed walk and sprint speed
 
 
