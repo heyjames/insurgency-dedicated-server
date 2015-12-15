@@ -14,6 +14,16 @@ Server #1 - 23.94.101.11:28015
 Server #2 - 23.94.101.109:27015
 
 ---------------------------------
+2015-12-14
+-Removed weight on galil drum mag
+-Added a specialist class
+-Only specialist and support can use drum mag on galil
+-Added a flare gun to VIP and Recon Leader security classes
+-Added panama_canal_a3 checkpoint
+-Finale counter attack begins 20 seconds after player spawns to give new spawns time to regroup
+-Finale counter attack wave changed to every 20 seconds
+-Made the M590 into AA-12 and toz into saiga-12 (saiga-12 has more recoil but larger capacity "drum mag")
+
 2015-12-12
 -Drum mag for Galil weighs a lot
 -Increased first round timer from 15 seconds to 25 seconds
@@ -163,6 +173,7 @@ Server #2 - 23.94.101.109:27015
 	launch_control_coopv1_6 checkpoint
 	nightfall_coopv1_2 checkpoint
 	osama_b2_checkpoint checkpoint
+	panama_canal_a3 checkpoint
 	ps7_co_b91 checkpoint
 	ps7_coop checkpoint
 	ps7z_coop checkpoint
@@ -180,6 +191,7 @@ Server #2 - 23.94.101.109:27015
 	---shansharpe is missing map updates below---
 	baghdad_b5
 	depot_coop
+	panama_canal_a3
 
 2015-11-21
 -Added another "Secondary" slot
