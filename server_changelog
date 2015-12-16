@@ -20,6 +20,8 @@ Server #2 - 23.94.101.109:27015
 -Add more insurgent weapons to have 0 weight and cost
 -Add mp_weaponstay 1 to default_server_checkpoint.cfg
 -Reduced speed walk and sprint speed
+-Revolver is one-hit kill with increased recoil
+-AC552 now has burst fire mode
 
 
 2015-12-14
