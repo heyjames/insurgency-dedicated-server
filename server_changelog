@@ -18,6 +18,9 @@ Server #2 - 23.94.101.109:27015
 -One bot class has a smoke grenade
 -Adjusted penetration power of revolver
 -Testing jballou's betterbot.cfg for improved bot AI
+-Adjusted finale number of waves
+-Match the C4 distance to insmilitia's
+-Increase time for people to regroup during finale respawn
 
 2015-12-15
 -Remove smokes from bots as they give human players an advantage
