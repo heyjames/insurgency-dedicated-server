@@ -14,6 +14,14 @@ Server #1 - 23.94.101.11:28015
 Server #2 - 23.94.101.109:27015
 
 ---------------------------------
+2015-12-18
+-Added
+cs_militia_coop_v1_1 checkpoint
+de_lake_coop_nd_v1_2 checkpoint
+de_safehouse_coop_v1_3_nde2 checkpoint
+dedust1p2_coop checkpoint
+kandagal_coop_b5 checkpoint
+
 2015-12-17
 -One bot class has a smoke grenade
 -Adjusted penetration power of revolver
@@ -207,11 +215,22 @@ Server #2 - 23.94.101.109:27015
 	winter_rescue_v1 checkpoint
 	zagros_convoy_b5 checkpoint
 	
+	cs_militia_coop_v1_1 checkpoint
+	de_lake_coop_nd_v1_2 checkpoint
+	de_safehouse_coop_v1_3_nde2 checkpoint
+	dedust1p2_coop checkpoint
+	kandagal_coop_b5 checkpoint
+	
 	---shansharpe is missing map updates below---
 	baghdad_b5
 	depot_coop
 	haditha_ws
 	panama_canal_a3
+	cs_militia_coop_v1_1 checkpoint
+	de_lake_coop_nd_v1_2 checkpoint
+	de_safehouse_coop_v1_3_nde2 checkpoint
+	dedust1p2_coop checkpoint
+	kandagal_coop_b5 checkpoint
 
 2015-11-21
 -Added another "Secondary" slot
