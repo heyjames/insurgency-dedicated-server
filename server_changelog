@@ -15,12 +15,12 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 2015-12-18
--Added
-cs_militia_coop_v1_1 checkpoint
-de_lake_coop_nd_v1_2 checkpoint
-de_safehouse_coop_v1_3_nde2 checkpoint
-dedust1p2_coop checkpoint
-kandagal_coop_b5 checkpoint
+-Added maps:
+	cs_militia_coop_v1_1 checkpoint
+	de_lake_coop_nd_v1_2 checkpoint
+	de_safehouse_coop_v1_3_nde2 checkpoint
+	dedust1p2_coop checkpoint
+	kandagal_coop_b5 checkpoint
 
 2015-12-17
 -One bot class has a smoke grenade
