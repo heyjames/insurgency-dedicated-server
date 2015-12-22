@@ -14,6 +14,13 @@ Server #1 - 23.94.101.11:28015
 Server #2 - 23.94.101.109:27015
 
 ---------------------------------
+2015-12-22
+-Decrease counter attack time
+-Added a bot prefix
+
+2015-12-19
+-Rearranged bot throwable configurations
+
 2015-12-18
 -Added maps:
 	cs_militia_coop_v1_1 checkpoint
