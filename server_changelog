@@ -14,6 +14,10 @@ Server #1 - 23.94.101.11:28015
 Server #2 - 23.94.101.109:27015
 
 ---------------------------------
+2015-12-23
+-Added rule to not prime a cache
+-Removed C4 detonating other C4
+
 2015-12-22
 -Decrease counter attack time
 -Added a bot prefix
