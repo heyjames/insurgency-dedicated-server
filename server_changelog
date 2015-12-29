@@ -14,6 +14,15 @@ Server #1 - 23.94.101.11:28015
 Server #2 - 23.94.101.109:27015
 
 ---------------------------------
+2015-12-28
+-Added map:
+	bb_river_b9 checkpoint
+	[Disabled] pow_raid_b3 checkpoint
+-Allowed changing difficulty of bots
+-Decreased molotovs usage by bots
+-Specialist looked too similar to leader, so i gave him a helmet
+-Added insurgent vip with a security weapon
+
 2015-12-25
 Added missing kandagal_coop_b5.nav, kandagal_coop_b5.txt files
 -Added maps:
