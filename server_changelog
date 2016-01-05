@@ -20,7 +20,7 @@ Server #2 - 23.94.101.109:27015
 -Added 1 more player slot to spectate
 -Added a 5 more seconds to the bot spawn counter attack
 -Vote screen now shows pictures
--Added cron job to ensure server is up every 5 minutes
+-Added cron job to ensure server is up every ~3 minutes
 
 2015-12-28
 -Added map:
