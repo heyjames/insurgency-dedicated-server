@@ -14,6 +14,14 @@ Server #1 - 23.94.101.11:28015
 Server #2 - 23.94.101.109:27015
 
 ---------------------------------
+2016-01-02
+-Replaced the custom bot classes with official names from other theater files
+-Added night vision goggles to loadout for all maps
+-Added 1 more player slot to spectate
+-Added a 5 more seconds to the bot spawn counter attack
+-Vote screen now shows pictures
+-Added cron job to ensure server is up every 5 minutes
+
 2015-12-28
 -Added map:
 	bb_river_b9 checkpoint
