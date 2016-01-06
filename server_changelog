@@ -14,6 +14,11 @@ Server #1 - 23.94.101.11:28015
 Server #2 - 23.94.101.109:27015
 
 ---------------------------------
+To-do
+-Add more incendiaries/molotovs to bots but decrease fire damage to player
+---------------------------------
+
+
 2016-01-02
 -Replaced the custom bot classes with official names from other theater files
 -Added night vision goggles to loadout for all maps
