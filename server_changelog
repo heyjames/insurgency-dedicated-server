@@ -18,6 +18,13 @@ To-do
 -Add more incendiaries/molotovs to bots but decrease fire damage to player
 ---------------------------------
 
+2016-01-07
+-Increased the recoil on the automatic Glock
+-Increased the extended magazine for the automatic Glock to 33 rounds to represent real life counterpart
+-Increased knife damage from 60 to 100 (one-hit kill)
+
+2016-01-07
+-Added an automatic Glock
 
 2016-01-02
 -Replaced the custom bot classes with official names from other theater files
