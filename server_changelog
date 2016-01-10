@@ -15,7 +15,9 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
--Add more incendiaries/molotovs to bots but decrease fire damage to player
+DONE -Add more incendiaries/molotovs to bots but decrease fire damage to player
+-Fire burns people after fire animation is over
+-Increase shotgun recoil
 ---------------------------------
 
 2016-01-07
