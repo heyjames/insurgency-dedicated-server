@@ -21,7 +21,7 @@ DONE-Increased recoil on Saiga-12
 DONE-Slightly increased recoil on auto Glock
 -Adjust shotgun slugs to be ineffective around 90 meters
 -Add another version of karkar since the current one is really laggy for many players for some reason
--Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
+RETRACTED-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
 -Remove C4 from Support and Specialist--ones who can carry a Galil drum/SAW
 -Decrease blast radius/penetration of C4
 ---------------------------------
