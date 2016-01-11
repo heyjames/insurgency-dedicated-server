@@ -15,10 +15,15 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
-READY to UPLOAD:-Fire burns people after fire animation is over
-READY to UPLOAD:-Bots with mosin uses AP ammo
--Increase shotgun recoil
+DONE:-Reduced molotov/incendiary damage time so it no longer burns people after fire animation is over
+DONE:-Bots with mosin now use AP ammo--the only weapon that bots use to have AP rounds
+DONE-Increased recoil on Saiga-12
+DONE-Slightly increased recoil on auto Glock
+-Adjust shotgun slugs to be ineffective around 90 meters
 -Add another version of karkar since the current one is really laggy for many players for some reason
+-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
+-Remove C4 from Support and Specialist--ones who can carry a Galil drum/SAW
+-Decrease blast radius/penetration of C4
 ---------------------------------
 
 2016-01-09
