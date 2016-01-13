@@ -15,14 +15,16 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
-DONE:-Reduced molotov/incendiary damage time so it no longer burns people after fire animation is over
-DONE:-Bots with mosin now use AP ammo--the only weapon that bots use to have AP rounds
+DONE-Reduced molotov/incendiary damage time so it no longer burns people after fire animation is over
+DONE-Bots with mosin now use AP ammo--the only weapon that bots use to have AP rounds
 DONE-Increased recoil on Saiga-12
 DONE-Slightly increased recoil on auto Glock
 DONE-Adjust shotgun slugs to be ineffective around 90 meters
 DONE-Removed C4 from Support and Specialist--ones who can carry a Galil drum/SAW
 DONE-Decreased blast damage/radius/penetration of C4 by 17-21%
--Add another version of karkar since the current one is really laggy for many players for some reason
+DONE-Rebuild server from reformat
+DONE-Test Dual-core server if stutters on bot counter-attack spawn
+DONEsvr2+fastdl-Add another version of karkar since the current one is really laggy for many players for some reason
 -Give the auto Glock the same ammo as M9
 RETRACTED-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
 ---------------------------------
