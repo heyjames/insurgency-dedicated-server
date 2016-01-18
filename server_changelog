@@ -19,12 +19,18 @@ To-do
 RETRACTED-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
 ---------------------------------
 
+2016-01-17
+-Removed insurgent VIP's MK18 suppressor
+-Slight decreased C4's damage output again
+-Decreased AT4 and RPG7 damage output. AT4 has more penetration radius, but lower blast radius. RPG is opposite.
+-Increased Saiga-12 recoil.
+
 2016-01-13
 -Reduced molotov/incendiary damage time so it no longer burns people after fire animation is over
 -Bots with mosin now use AP ammo--the only weapon that bots use to have AP rounds
 -Increased recoil on Saiga-12
 -Slightly increased recoil on auto Glock
--Adjust shotgun slugs to be ineffective around 90 meters
+-Adjust shotgun slugs to be max effective around 90 meters
 -Removed C4 from Support and Specialist--ones who can carry a Galil drum/SAW
 -Decreased blast damage/radius/penetration of C4 by 17-21%
 -Rebuild server #1 from reformat
