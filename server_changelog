@@ -27,6 +27,12 @@ RETRACTED-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in
 	desert_hell_coop_v6 checkpoint
 	dust2_checkpoint_b7 checkpoint
 	[Re-enabled] pow_raid_b3 checkpoint
+	trenches6_coop_v1_2 checkpoint
+	invasion_coop_beta3 checkpoint
+	osama_b3_checkpoint checkpoint
+	desert_warfare_vehicles_coop_v1_3 checkpoint
+	cu_chi_tunnels_coop_b2 checkpoint
+	desert_island_v8 checkpoint
 
 2016-01-17
 -Removed insurgent VIP's MK18 suppressor
