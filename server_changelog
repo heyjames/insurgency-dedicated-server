@@ -20,7 +20,13 @@ RETRACTED-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in
 ---------------------------------
 
 2016-01-18
--Added inferno_checkpoint_b2 checkpoint and prospect_coop_b5 checkpoint
+-Added maps:
+	inferno_checkpoint_b2 checkpoint
+	prospect_coop_b5 checkpoint
+	bb_lighthouse_gold checkpoint
+	desert_hell_coop_v6 checkpoint
+	dust2_checkpoint_b7 checkpoint
+	[Re-enabled] pow_raid_b3 checkpoint
 
 2016-01-17
 -Removed insurgent VIP's MK18 suppressor
