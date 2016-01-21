@@ -23,6 +23,10 @@ To-do
 RETRACTED-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
 ---------------------------------
 
+2016-01-21
+-Added maps:
+	crossbow_b2 checkpoint
+
 2016-01-18
 -Added maps:
 	inferno_checkpoint_b2 checkpoint
@@ -30,13 +34,13 @@ RETRACTED-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in
 	bb_lighthouse_gold checkpoint
 	desert_hell_coop_v6 checkpoint
 	dust2_checkpoint_b7 checkpoint
-	[Re-enabled] pow_raid_b3 checkpoint
 	trenches6_coop_v1_2 checkpoint
 	invasion_coop_beta3 checkpoint
 	osama_b3_checkpoint checkpoint
 	desert_warfare_vehicles_coop_v1_3 checkpoint
 	cu_chi_tunnels_coop_b2 checkpoint
 	desert_island_v8 checkpoint
+	[Re-enabled] pow_raid_b3 checkpoint
 
 2016-01-17
 -Removed insurgent VIP's MK18 suppressor
@@ -319,6 +323,19 @@ Added missing kandagal_coop_b5.nav, kandagal_coop_b5.txt files
 	warehouse_coopv2 checkpoint
 	winter_rescue_v1 checkpoint
 	zagros_convoy_b5 checkpoint
+	
+	inferno_checkpoint_b2 checkpoint
+	prospect_coop_b5 checkpoint
+	bb_lighthouse_gold checkpoint
+	desert_hell_coop_v6 checkpoint
+	dust2_checkpoint_b7 checkpoint
+	trenches6_coop_v1_2 checkpoint
+	invasion_coop_beta3 checkpoint
+	osama_b3_checkpoint checkpoint
+	desert_warfare_vehicles_coop_v1_3 checkpoint
+	cu_chi_tunnels_coop_b2 checkpoint
+	desert_island_v8 checkpoint
+	crossbow_b2 checkpoint
 
 	[removed] panama_canal_a3 checkpoint
 
