@@ -15,7 +15,6 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
--Remove smoke from bots completely
 -Add hunt maps
 -Decrease AT4/RPG/C4 from security loadouts
 -MOAR FIRE for bots
@@ -26,6 +25,8 @@ RETRACTED-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in
 ---------------------------------
 
 2016-01-24
+-6 classes allowed + 2 spectator = 8 slots
+-Removed smoke from bots completely
 -Appended "[INS MILITIA]" to Server Name
 -Limited James's San Francisco Co-op to 6 player slots and started server
 
