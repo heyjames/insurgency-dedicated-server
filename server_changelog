@@ -16,17 +16,16 @@ Server #2 - 23.94.101.109:27015
 ---------------------------------
 To-do
 -Add hunt maps
--Decrease AT4/RPG/C4 from security loadouts
--MOAR FIRE for bots
 -Spectator cannot view chat
--VIP insurgent is using knife only; Sapper also? He has the black vest with heavy backpack.
+-VIP insurgent is using knife only; Sapper also? He has the black vest with heavy backpack. Findings: Certain maps do this.
 -Give the auto Glock the same ammo as M9
-RETRACTED-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
+RETRACTED (too time consuming; little to no benefit)-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
 ---------------------------------
 
 2016-01-24
--6 classes allowed + 2 spectator = 8 slots
--Removed smoke from bots completely
+-Destroyed James's San Francisco Co-op #2
+-6 classes allowed + 1 or 2 spectator slots
+-Replaced last bot carrying smoke with a molotov
 -Appended "[INS MILITIA]" to Server Name
 -Limited James's San Francisco Co-op to 6 player slots and started server
 
