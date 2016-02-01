@@ -17,16 +17,19 @@ Server #2 - 23.94.101.109:27015
 To-do
 -Re-enable weapon sway
 -Add suppression cvars from Ballou's betterbots
--Move UMP45 to secondary
--Change knife damage from 100 to 99.
--Give M4A1 burst fire
 -Add hunt maps
 -Spectator cannot view chat
--VIP insurgent is using knife only; Sapper also? He has the black vest with heavy backpack. Findings: Certain maps do this.
-	-Wingnut also reports some bots coming in as errors and knives. I came in and saw this. It was on revolt_checkpoint. Try to load this map again and see if you see the errors again. Then have insurgent bots only one class to narrow down the culprit.
 -Give the auto Glock the same ammo as M9
 RETRACTED (too time consuming; little to no benefit)-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
 ---------------------------------
+
+2016-01-31
+-VIP insurgent is using knife only; this happens on some maps apparently. Changed his weapon from MK18 to FAL.
+-Insurgent with black vest and heavy armor with no helmet is also using knife only and happens on some maps. This bot uses a C79 scope even thought it is not in the loadout. Replacing the character skin fixed this.
+-Wingnut also reports some bots coming in as errors and knives. I came in and saw this. It was on revolt_checkpoint. Try to load this map again and see if you see the errors again. Then have insurgent bots only one class to narrow down the culprit. Hopefully it is fixed by changing the character skin and removing the MK18 from the VIP.
+-Moved UMP45 to secondary
+-Changed knife damage from 100 to 99.
+-Gave M4A1 burst fire
 
 2016-01-30
 -Added Ballou's voice cvars to ins-server.cfg in hopes spectators can now see chat messages
