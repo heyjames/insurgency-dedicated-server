@@ -15,13 +15,16 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
--Re-enable weapon sway
 -Add suppression cvars from Ballou's betterbots
--Add hunt maps
 -Spectator cannot view chat
 -Give the auto Glock the same ammo as M9
 RETRACTED (too time consuming; little to no benefit)-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
 ---------------------------------
+
+2016-02-03
+-Re-enabled weapon sway on certain items
+-Added some hunt maps
+
 
 2016-01-31
 -VIP insurgent is using knife only; this happens on some maps apparently. Changed his weapon from MK18 to FAL.
