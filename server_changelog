@@ -15,7 +15,6 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
--Increase AT4 holster and draw speed
 -Disable @humans command
 -Spectator cannot view chat
 -Give the auto Glock the same ammo as M9
@@ -23,6 +22,7 @@ RETRACTED (too time consuming; little to no benefit)-Give the auto Glock it's ow
 ---------------------------------
 
 2016-02-03
+-Decreased AT4+RPG holster, draw, and aim down sight (in) speed
 -Players can no longer view their K/D in the scoreboard
 -Re-enabled weapon sway on certain items
 -Added hunt maps' mapcycle.txt
