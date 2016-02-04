@@ -22,6 +22,7 @@ RETRACTED (too time consuming; little to no benefit)-Give the auto Glock it's ow
 ---------------------------------
 
 2016-02-03
+-Players can no longer view their K/D in the scoreboard
 -Re-enabled weapon sway on certain items
 -Added hunt maps' mapcycle.txt
 -Add suppression cvars from Ballou's betterbots
