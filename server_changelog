@@ -24,6 +24,8 @@ RETRACTED (too time consuming; little to no benefit)-Give the auto Glock it's ow
 
 2016-02-11
 -Reinstaed default AT4+RPG holster, draw speed
+-Added karkand_redux_p2_v1 checkpoint
+-Disabled karkar_coop_v1_1 checkpoint because the map causes frame-lag for a lot of players
 
 2016-02-03
 -Decreased AT4+RPG holster, draw, and aim down sight (in) speed
