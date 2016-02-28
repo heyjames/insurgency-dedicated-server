@@ -22,6 +22,9 @@ To-do
 RETRACTED (too time consuming; little to no benefit)-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
 ---------------------------------
 
+2016-02-27
+-Disabled pow_raid_b3 checkpoint because it crashes the server.
+
 2016-02-11
 -Reinstaed default AT4+RPG holster, draw speed
 -Added karkand_redux_p2_v1 checkpoint
