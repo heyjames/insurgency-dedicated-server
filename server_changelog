@@ -28,6 +28,9 @@ To-do
 11:42 PM - MFRsempFi: i think 100
 11:43 PM - MFRsempFi: 7.62x39 is usually 75 for a drum
 
+-Spliffz:./insserver start && tail -f log/console/insserver-console.log
+-it starts the server, and afterward starts displaying the current logfile as it keeps getting input
+
 -Disable @humans command
 -Spectator cannot view chat
 -Give the auto Glock the same ammo as M9
