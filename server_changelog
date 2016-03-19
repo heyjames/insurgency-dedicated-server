@@ -15,27 +15,27 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
--MFRSempFi wants the Galil SAR to:
- so you said to bring the M14 EBR's ammo type to the SAR?
-11:39 PM - MFRsempFi: bring the AK ammo7.62x39
-11:40 PM - James: ah ok
-11:39 PM - MFRsempFi: with drum man-50-75 rds or so
-11:39 PM - MFRsempFi: if you wanted the ther Gailil to have 7.61x51 thats the ACE version
-11:40 PM - MFRsempFi: theres 3 diff versions- but im pretty sure those ammo types are correct
-11:41 PM - MFRsempFi: 5.56 reg, 7.62x39 SAR(botht with drums) and the ACE 7.62x51 pretty much like the L1A1 more so than the EBR .308 and NATO 7.62x51 are basically the same but vary slightly
-11:43 PM - James: how much are in the drums right now do you know?
-11:42 PM - MFRsempFi: Buzz would know better than me
-11:42 PM - MFRsempFi: i think 100
-11:43 PM - MFRsempFi: 7.62x39 is usually 75 for a drum
-
 -Spliffz:./insserver start && tail -f log/console/insserver-console.log
 -it starts the server, and afterward starts displaying the current logfile as it keeps getting input
 
 -Disable @humans command
--Spectator cannot view chat
--Give the auto Glock the same ammo as M9
-RETRACTED (too time consuming; little to no benefit)-Give the auto Glock it's own ammo so the ap, hp, and default has 10 in the mag
 ---------------------------------
+
+2016-03-18
+-Galil is now placed in the Insurgent foregrip section according to the latest update
+-Removed the need to select the extended pistol attachment for the automatic Glock. Now, it automatically uses the extended mag amount and the model is reconfigured to show the extended magazine by default.
+-Make all weapons cost 1 instead of weight 1 unless it's a vest/armor because those need a weight difference to avoid the deselect weapon bug
+-Made flare in explosive 3 slot
+-Make users choose between a C4 or AT4 in Explosive slot 1 instead of having both. Support and Specialist still cannot use C4.
+-Added M1A1 to all classes
+-MFRSempFi request: Created an extended mag for Galil SAR to replace the Drum magazine now that it uses 7.62 rounds. Extended mag extends from 20 to 30 rounds.
+-MFRSempFi request: Gave the Galil SAR 7.62 rounds found in the L1A1/FAL
+-MFRSempFi request: Decreased M249 rounds from 200 to 100 and make them the same ammo type as the L1A1/FAL (7.62(
+-Spectator can now view text chat and hear voice chat but cannot communicate back through text chat
+
+2016-03-17
+-Added fast reload, fast holster/draw, fast aim down sights, access to all weapons and items in thefuntheaterfile001
+-thefuntheaterfile001 is 
 
 2016-02-27
 -Disabled pow_raid_b3 checkpoint because it crashes the server
