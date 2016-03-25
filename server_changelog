@@ -21,6 +21,9 @@ To-do
 -Disable @humans command
 ---------------------------------
 
+2016-03-24
+-Removed FAL from VIP insurgent as it had too many one-hit kills towards players
+
 2016-03-18
 -Galil is now placed in the Insurgent foregrip section according to the latest update
 -Removed the need to select the extended pistol attachment for the automatic Glock. Now, it automatically uses the extended mag amount and the model is reconfigured to show the extended magazine by default.
@@ -35,7 +38,7 @@ To-do
 
 2016-03-17
 -Added fast reload, fast holster/draw, fast aim down sights, access to all weapons and items in thefuntheaterfile001
--thefuntheaterfile001 is 
+-Added payback_b1 checkpoint map
 
 2016-02-27
 -Disabled pow_raid_b3 checkpoint because it crashes the server
