@@ -21,6 +21,9 @@ To-do
 -Disable @humans command
 ---------------------------------
 
+2016-04-02
+-Wingnut and Buzz thinks the shotgun reload is too long. There are two kinds of reload animations available for the shotgun: completely empty and not completely empty magazine where the completely empty takes longer to reload. The not completely empty version is too short, but lengthening this also lengthens the time for the completely empty, which then becomes too long. Wingnut and Buzz disliked this, but it is actually only slightly longer than the completely empty reload time for several rifles. I believe it is an illusion because the intended short animation is being slowed down to look like the player is moving in slow motion. If the intended animation was actually reloading a drum magazine, I think the players will be more forgiving. I have decided to increase the time slightly so the completely empty mag reload time is slightly shorter than the common rifles at the cost of having a much shorter not completely empty magazine reload time.
+
 2016-03-24
 -Removed FAL from VIP insurgent as it had too many one-hit kills towards players
 -Added MFRSempFi's M249 and Galil SAR changes to the thefuntheaterfile
