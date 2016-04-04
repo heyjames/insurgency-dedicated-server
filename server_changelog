@@ -15,6 +15,8 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
+-Move F1 grenade down
+-Remove nades from bots as difficulty seems to be so much more difficult now (silent developer update?)
 -Spliffz:./insserver start && tail -f log/console/insserver-console.log
 -it starts the server, and afterward starts displaying the current logfile as it keeps getting input
 
