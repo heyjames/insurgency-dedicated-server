@@ -24,6 +24,7 @@ To-do
 ---------------------------------
 
 2016-04-05
+-Disabled frag grenade from template_bomber_insurgent as bot difficulty seemed to have increased in a silent developer update.
 -Removed flare gun from explosive slot 3
 -Removed F1 grenade from loadout
 -Increased automatic shotguns' reload time. 
