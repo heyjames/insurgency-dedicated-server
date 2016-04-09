@@ -22,6 +22,9 @@ To-do
 -Disable @humans command
 ---------------------------------
 
+2016-04-08
+-Added the insurgent galil, which can use the drum mag but fires 5.56 rounds vs MFRSempFi's 7.62 rounds in the SAR with 20 rounds plus 10 in the extended mag that I specifically created.
+
 2016-04-05
 -Disabled frag grenade from template_bomber_insurgent as bot difficulty seemed to have increased in a silent developer update.
 -Removed flare gun from explosive slot 3
