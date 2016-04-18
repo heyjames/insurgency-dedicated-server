@@ -15,6 +15,7 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
+-Admins/regulars will ask
 -Ruly/Clockwork? is using the flare as a toy. I should restore the access limit back to the first explosive slot again.
 -Add some insurgent weapons?
 -Spliffz:./insserver start && tail -f log/console/insserver-console.log
