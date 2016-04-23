@@ -15,14 +15,20 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
--Admins/regulars will ask
--Ruly/Clockwork? is using the flare as a toy. I should restore the access limit back to the first explosive slot again.
 -Add some insurgent weapons?
 -Spliffz:./insserver start && tail -f log/console/insserver-console.log
 -it starts the server, and afterward starts displaying the current logfile as it keeps getting input
 
 -Disable @humans command
 ---------------------------------
+
+2016-04-22
+-Disabled Explosive Slot 3 and decreased throwable explosive item count from 3 to 2.
+-Added M9 suppressor back to default loadout.
+-Added M67 Frag to default loadout.
+
+2016-04-17
+-Changed rules wording: "Admins/regulars will ask..." instead of "Someone will ask...".
 
 2016-04-08
 -Added the insurgent galil, which can use the drum mag but fires 5.56 rounds vs MFRSempFi's 7.62 rounds in the SAR with 20 rounds plus 10 in the extended mag that I specifically created.
