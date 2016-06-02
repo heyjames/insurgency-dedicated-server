@@ -23,8 +23,9 @@ To-do
 ---------------------------------
 
 2016-06-01
-Added official drycanal_coop checkpoint map to the mapcycle text file
-Changed mp_timer_pregame from 30 to 20 because MFRSempFi now has a faster PC
+-Added official drycanal_coop checkpoint map to the mapcycle text file
+-Changed mp_timer_pregame from 30 to 20 because MFRSempFi now has a faster PC
+-Game updated on May 27th, which caused the server to default to show kill confirmation. I disabled it in the checkpoint cfg file.
 
 2016-04-27
 -Added chateau_tunnels_v1 checkpoint
