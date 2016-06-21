@@ -15,6 +15,7 @@ Server #2 - 23.94.101.109:27015
 
 ---------------------------------
 To-do
+-Move the Insurgent frag and flare to the bottom by renaming to itself
 -Add some insurgent weapons?
 -Spliffz:./insserver start && tail -f log/console/insserver-console.log
 -it starts the server, and afterward starts displaying the current logfile as it keeps getting input
