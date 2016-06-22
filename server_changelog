@@ -23,6 +23,9 @@ To-do
 -Disable @humans command
 ---------------------------------
 
+2016-06-21
+-Added badlands_night_b1 checkpoint map
+
 2016-06-01
 -Added official drycanal_coop checkpoint map to the mapcycle text file
 -Changed mp_timer_pregame from 30 to 20 because MFRSempFi now has a faster PC
