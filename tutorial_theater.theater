@@ -1,0 +1,1412 @@
+// Written by James for James's Co-op
+
+"#base" "default.theater"
+
+"theater"
+{
+	"core"
+	{
+		"precache"
+		{
+			"localize"			"resource/insurgency_english_j.txt"
+		}
+	}
+
+	"teams"
+	{
+		"security"
+		{
+			"squads"
+			{
+				"#Fireteam_Alpha"
+				{
+					"#Squad_Fireteam_Leader_Recon"				"template_recon_security_coop"
+				}
+			}
+		}
+		"insurgents"
+		{
+			"squads"
+			{
+				"#Cell_Alpha"	// assault team #1
+				{
+					// role name						preset
+					"#Squad_Cell_Leader_Specialist"		"template_coop_specialist"			// No throwables
+				}
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+	"player_templates"
+	{
+		"template_recon_security_coop"
+		{
+			"team"						"security"
+			"models"
+			{
+				"player"				"models/characters/security_light.mdl"
+				"viewmodel_hands"		"models/weapons/v_hands_sec_l.mdl"
+				
+				"attachments"
+				{
+					"cap"
+					{
+						"model"			"models/characters/us_cap_light.mdl"
+					}
+				}
+			}
+			"buy_order"
+			{
+				"weapon"			"weapon_m4a1"
+				"weapon_upgrade"	"ammo_ap_m4"
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"ammo_ap_m9"
+				"weapon_upgrade"	"siderail_flashlight_pistol"	// old: sec_flashlight_pistol
+				"weapon_upgrade"	"barrel_silencer_pistol"		// old: sec_silencer_pistol
+				"weapon"			"weapon_m67"
+				"gear"				"sec_heavy_armor"
+				"gear"				"sec_chest_rig"
+				"weapon"			"weapon_kabar"
+			}
+			"allowed_weapons"
+			{
+				// Primary
+				"weapon"			"weapon_m14"
+				"weapon"			"weapon_m16a4"
+				"weapon"			"weapon_mk18"
+				"weapon"			"weapon_ump45"
+				"weapon"			"weapon_mini14"
+				"weapon"			"weapon_galil_sar"
+				"weapon"			"weapon_sterling"
+				"weapon"			"weapon_ak74"
+				"weapon"			"weapon_m40a1"
+				"weapon"			"weapon_l1a1"
+				"weapon"			"weapon_m1a1"
+				"weapon"			"weapon_galil"
+
+				// Workshop weapons
+				"weapon"			"weapon_l85a"
+
+				// Secondary
+				"weapon"			"weapon_mp5"
+				"weapon"			"weapon_m590"
+				"weapon"			"weapon_m45"
+				"weapon"			"weapon_makarov"
+				"weapon"			"weapon_model10"
+				"weapon"			"weapon_toz"
+
+				"weapon_upgrade"	"underbarrel_m203_he"
+				"weapon_upgrade"	"underbarrel_bipod"
+				"weapon_upgrade"	"barrel_silencer_sec1"			// old: sec_silencer
+				"weapon_upgrade"	"siderail_flashlight_rail"		// old: sec_flashlight_rail
+
+				"weapon_upgrade"	"siderail_flashlight_pistol"	// old: sec_flashlight_pistol
+				"weapon_upgrade"	"barrel_silencer_pistol"		// old: sec_silencer_pistol
+				"weapon_upgrade"	"siderail_lasersight_shotgun_ins"
+
+				//"weapon_upgrade"	"barrel_silencer_ins1"
+				"weapon_upgrade"	"barrel_silencer_sec2"
+
+				"weapon_upgrade"	"optic_eotech"
+				"weapon_upgrade"	"optic_po4x24"
+				"weapon"			"weapon_p2a1"
+				"gear"				"sec_nightvision"
+				"weapon"			"weapon_c4_clicker"
+
+				"weapon"			"weapon_kabar"
+			}
+		}
+
+		"template_coop_specialist"
+		{
+			"team"						"security,insurgents"
+			"print_name"				"#Squad_Cell_Specialist"
+			
+			"models"
+			{
+				"player"				"models/characters/insurgent_standard.mdl"
+				//"viewmodel_hands"		"models/weapons/v_hands_ins_m.mdl"
+			}
+			
+			"buy_order"
+			{
+				"gear"					"ins_light_armor"
+				"gear"					"ins_chest_carrier"
+				"weapon"				"weapon_kabar"
+				"weapon"				"weapon_aks74u"
+			}
+			"allowed_items"
+			{
+				"gear"					"ins_light_armor"
+				"gear"					"ins_chest_carrier"
+				"weapon"				"weapon_aks74u"
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	"weapons"
+	{
+		"weapon_l85a"
+		{
+			"import"				"ballistic_base"
+			"weapon_class"				"rifle_automatic_fire"
+			"print_name"				"#weapon_l85a"
+			"print_desc"				"#weapon_l85a_desc"
+			"view_model"				"models/weapons/v_l85a.mdl"
+			"world_model"				"models/weapons/w_l85a.mdl"
+			"rounds_per_minute"			"650"
+			"weapon_slot"				"primary"
+			"act_table"				"shortrifle"
+			"weapon_abilities"			"ironsight"
+			"weapon_weight"				"130"	// (2.8kg[weapon] + (0.4kg[ammo] * (1+8)[mags]) )*10[kg->hg for int]  +16[encumbrance]
+			"weapon_cost"				"2"
+			"barrel_length"				"22"
+			
+			"viewmodel_attachments"
+			{
+				"flipsights"
+				{
+					"model"					"models/weapons/upgrades/a_carryhandle_l8.mdl"
+					"fallback_for_slot"			"optics"
+				}
+				"standard_m4a1"
+				{
+					"model"					"models/weapons/upgrades/a_standard_l85a.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				"standard2_m4a1"
+				{
+					"model"					"models/weapons/upgrades/a_standard2_l85a.mdl"
+					"fallback_for_slot"			"underbarrel"
+				}
+				"standard3_m4a1"
+				{
+					"model"					"models/weapons/upgrades/a_standard3_l85a.mdl"
+					"fallback_for_slot"			"siderail"
+				}
+			}
+			"world_attachments"
+			{
+				"flipsights"
+				{
+					"model"					"models/weapons/upgrades/w_flipup3.mdl"
+					"fallback_for_slot"			"optics"
+				}
+			}
+			"fov"
+			{
+				"fov_plr_ironsight"			"-23"	// -25 larger # = farther when ADS
+				"fov_plr_focus"				"-23"	// -12
+				"fov_wpn_default"			"68"	// 68 larger # = see more of weapon stock
+				"fov_wpn_ironsight"			"65"	// 80 larger # = sights farther when ADS ironsight
+				"fov_wpn_focus"				"55"	// 81 larger # = sights farther when ADS on ironsight focus
+			}
+			"viewmodel_offsets"
+			{
+				// x back, y left, z down
+				"VMOffsetStand"				"0.65 -0.10 0.5"
+			}
+			"sounds"
+			{
+				"shot_single"				"Weapon_M4a1.Single"
+				"shot_single_local"			"Weapon_M4a1.SingleLocal"
+				"shot_silent"				"Weapon_M4a1.SingleSilenced"
+				"shot_silent_local"			"Weapon_M4a1.SingleSilencedLocal"
+				"empty"					"Weapon_M4a1.Empty"
+				"clipin"				"Weapon_M4a1.Magin"
+				"clipout"				"Weapon_M4a1.Magout"
+				"boltback"				"Weapon_M4a1.Boltback"
+				"boltrelease"				"Weapon_M4a1.Boltrelease"
+				"rofdown"				"Weapon_M4a1.ROF"
+				"rofup"					"Weapon_M4a1.ROF"
+			}
+			"particles"
+			{
+				"particle_muzzleflash_1st"		"muzzleflash_m16_1p"
+				"particle_muzzleflash_3rd"		"muzzleflash_m16_3rd"
+				"particle_tracer"			"weapon_tracers"
+			}
+			"recoil"
+			{
+				"recoil_lateral_range"			"-0.8 1.05"
+				"recoil_vertical_range"			"2.55 2.85"
+				"recoil_aim_punch"			"0.4 0.7"
+				"recoil_rest_rate"			"5"
+				"recoil_rest_delay"			"0.12"
+				"recoil_roll_range"			"-1.5 -1.5"
+				"recoil_roll_rest_rate"			"150"
+				"recoil_freeaim_frac"			"0.3"
+				
+				"recoil_additional_rest_per_shot"	"2.5"	// Amount of rest per additional shot (added to rest rate) (default = 2.5)
+				"recoil_shot_reset_time"		"0.5"	// Time delay for resetting the shots fired counter for the above (default = 0.3)
+				"recoil_shot_max_shots"			"8"	// Max number of shots to account for for the additional rest (default = 5)
+				"recoil_punch_additive_factor"		"0.85"	// How much of the view punch from the previous shot(s) get added to any additional shot fired.
+			}
+			"ballistics"
+			{
+				"spread"				"0.22 0.22 0.22"
+				"FireModes"				"semi, full"
+				"bulletcount"				"1"
+				"maxrange"				"10000"
+			}
+			"ammo_clip"
+			{
+				"ammo_type"				"556_stanag_m4"
+				"clip_max"				"12"
+				"clip_max_rounds"			"30"
+				"clip_default"				"3"
+			}
+			"attachments"
+			{
+				"attachment_addon"			"primary"
+			}
+			"kitui_offset"
+			{
+				"position"				"24 0 3"
+			}
+			"team_access"				"security, insurgent"
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	"weapon_upgrades"
+	{
+		// ========================================
+		// UNDERBARREL
+		// ========================================
+		"underbarrel_gl_base"
+		{
+			"class_restricted"			"0"
+			"lock_slot"					"" // Allow underbarrel with explosive slots
+		}
+
+		"underbarrel_ag36_base"
+		{
+			"IsBase"				"1"
+			"import"				"underbarrel_gl_base"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"model"					"models/weapons/upgrades/a_gl_ag36.mdl"
+					"Gesture"				"delta_gl"
+					"ActSuffix"				"_GL"
+					"Main"					"1"
+				}
+				
+			}
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_l85a"
+			}
+		}
+		"underbarrel_ag36_he"
+		{
+			"import"					"underbarrel_ag36_base"
+			"upgrade_cost"				"1"
+			"print_name"				"#weapon_m203_he"
+			"print_desc"				"#weapon_m203_he_desc"
+			"attach_weapon"				"weapon_m203_he"
+			
+			"viewmodel_attachments"
+			{
+				"Launcher"
+				{
+					"skin"					"0"
+				}
+			}
+		}
+
+
+
+
+
+
+		"underbarrel_m203_he"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"1"
+		}
+		"underbarrel_m203_smoke"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"1"
+		}
+		"underbarrel_gp25_he"
+		{
+			"upgrade_cost"				"1"
+			"class_restricted"			"0"
+		}
+		"underbarrel_gp25_smoke"
+		{
+			"upgrade_cost"				"1"
+			"class_restricted"			"0"
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		// ========================================
+		// OPTICS
+		// ========================================
+		"optic_eotech"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				// security weapons
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_acr"
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_l1a1"
+
+				// insurgent weapons
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_sterling"
+				"weapon"				"weapon_toz"
+
+				// workshop weapons
+				"weapon"				"weapon_l85a"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"Eotech_Small"
+				{
+					"weapons"
+					{
+						"weapon"				"weapon_mini14"
+						"weapon"				"weapon_mp5"
+						"weapon"				"weapon_mp40"
+						"weapon"				"weapon_ump45"
+						"weapon"				"weapon_sterling"
+					}
+				}
+				
+				"Eotech_Normal"
+				{
+					"excluded_weapons"
+					{
+						"weapon"				"weapon_mini14"
+						"weapon"				"weapon_mp5"
+						"weapon"				"weapon_mp40"
+						"weapon"				"weapon_ump45"
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_mk18"
+						"weapon"				"weapon_m1a1"
+						"weapon"				"weapon_sterling"
+
+						"weapon"				"weapon_l85a"
+					}
+				}
+				
+				"Eotech_Large"
+				{
+					"weapons"
+					{
+						"weapon"				"weapon_mk18"
+						// "weapon"			"weapon_m249"
+					}
+				}
+
+				"Eotech_XLarge"
+				{
+					"weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_m1a1"
+
+						"weapon"				"weapon_l85a"
+					}
+				}
+			}
+		}
+		"optic_2xaimpoint" // old: optic_2xaimpoint_sec
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				// security weapons
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_l1a1"
+				
+				// insurgent weapons
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_sterling"
+				"weapon"				"weapon_toz"
+
+				// workshop weapons
+				"weapon"				"weapon_l85a"
+
+			}
+			
+			"viewmodel_attachments"
+			{
+				"2xScope_Large"
+				{
+					"weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+
+						"weapon"				"weapon_l85a"
+					}
+				}
+				"2xScope_Normal"
+				{
+					"excluded_weapons"
+					{
+						"weapon"				"weapon_mini14"
+						"weapon"				"weapon_mp5"
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_mp40"
+						"weapon"				"weapon_sterling"
+
+						"weapon"				"weapon_l85a"
+					}
+				}
+			}
+		}
+		"optic_aimpoint"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"		"1"
+			"team_access"				"security"
+			
+			"allowed_weapons"
+			{
+				// security weapons
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_l1a1"
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+
+				// insurgent weapons
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_sterling"
+				"weapon"				"weapon_toz"
+
+				// workshop weapons
+				"weapon"				"weapon_l85a"
+			}
+
+			"viewmodel_attachments"
+			{
+				"2xScope_Large"
+				{
+					"weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+
+						"weapon"				"weapon_l85a"
+					}
+				}
+				"2xScope_Normal"
+				{
+					"excluded_weapons"
+					{
+						"weapon"				"weapon_mini14"
+						"weapon"				"weapon_mp5"
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_sterling"
+
+						"weapon"				"weapon_l85a"
+					}
+				}
+				
+				"2xScope_Small"
+				{
+					"model"					"models/weapons/upgrades/a_optic_aimpoint_m.mdl"
+					"AnimIronSights"		"4x_zoom"
+					"AnimIdle"				"4x_idle"
+					"Gesture"				"delta_aimp"
+					"Main"					"1"
+					
+					"weapons"
+					{
+						"weapon"				"weapon_mini14"
+						"weapon"				"weapon_mp5"
+						"weapon"				"weapon_sterling"
+					}
+				}
+			}
+		}
+
+		"optic_susat"
+		{
+			"class_restricted"	"0"
+			"upgrade_slot"				"optics"
+			"upgrade_cost"				"1"
+			"print_name"				"#weapon_upgrade_susat"
+			"print_desc"				"#weapon_upgrade_susat_desc"
+			"team_access"				"security"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_l85a"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"Susat"
+				{
+					"model"					"models/weapons/upgrades/a_optic_susat.mdl"
+					"AnimIronSights"		"elcan_zoom"
+					"AnimIdle"				"elcan_idle"
+					"Gesture"				"delta_susat"
+					"Main"					"1"
+					"weapons"
+					{
+						"weapon"				"weapon_l85a"
+					}
+
+					"scales"
+					{
+						"weapon_l85a"               "1.15"
+					}
+				}
+
+			}
+			
+			"world_attachments"
+			{
+				"ELCAN"
+				{
+					"model"					"models/weapons/upgrades/w_elcan.mdl"
+				}
+			}
+			
+			"optics_fov_override"
+			{
+				"fov_wpn_scope"				"14"
+				"fov_wpn_ironsight"			"56" 
+				"fov_wpn_focus"				"64"
+				
+				"weapon_l85a"
+				{
+					"fov_wpn_ironsight"			"42"
+					"fov_wpn_focus"				"64"
+				}
+			}
+
+		}	
+
+		"optic_elcan"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"		"1"
+			"team_access"				"security"
+			
+			"allowed_weapons"
+			{
+				// security weapons
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_l85a"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_l1a1"
+				
+				"weapon"				"weapon_m590"
+
+				// insurgent weapons
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_sterling"
+
+				"weapon"				"weapon_toz"
+
+				// workshop weapons
+				"weapon"				"weapon_l85a"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"Elcan_Small"
+				{
+					"excluded_weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_mk18"
+						"weapon"				"weapon_m1a1"
+
+						"weapon"				"weapon_l85a"
+					}
+				}
+				
+				"Elcan_Normal"
+				{
+					"weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_mk18"
+						"weapon"				"weapon_m1a1"
+
+						"weapon"				"weapon_l85a"
+					}
+				}
+			}
+		}
+		"optic_scope_7x"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_l1a1"
+			}
+		}
+		"optic_scope_mk4"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"1"
+			"team_access"				"security"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_m16a4"
+			}
+		}
+		"optic_kobra"
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"		"1"
+			"team_access"				"security, insurgent"
+
+			"allowed_weapons"
+			{
+				// insurgent weapons
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_l1a1"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_sterling"
+				"weapon"				"weapon_toz"
+
+				// security weapons
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_l85a"
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"Kobra_XLarge"
+				{
+					"weapons"
+					{
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+
+						"weapon"				"weapon_l85a"
+					}
+				}
+				"Kobra_Large"
+				{
+					"excluded_weapons"
+					{
+						"weapon"				"weapon_mini14"
+						"weapon"				"weapon_mp5"
+						"weapon"				"weapon_mp40"
+						"weapon"				"weapon_sterling"
+						"weapon"				"weapon_ump45"
+						"weapon"				"weapon_m16a4"
+						"weapon"				"weapon_m4a1"
+						"weapon"				"weapon_m249"
+
+						"weapon"				"weapon_l85a"
+					}
+				}
+			}
+		}
+		"optic_po4x24"
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				// insurgent weapons
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_l1a1"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_mosin"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sks"
+
+				// security weapons
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m249"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_m4a1"
+
+				// workshop weapons
+				"weapon"				"weapon_l85a"
+			}
+		}
+
+		// ========================================
+		// M16A4/M4A1 SPECIFIC UPGRADES
+		// ========================================
+		"ammo_tracer_m16a4"
+		{
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_l85a"
+			}
+		}
+		"ammo_hp_m16a4"
+		{
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_l85a"
+			}
+		}
+		"ammo_ap_m16a4"
+		{
+			"upgrade_cost"				"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_l85a"
+			}
+		}
+		"ammo_tracer_m4"
+		{
+			"upgrade_cost"				"1"
+		}
+		"ammo_hp_m4"
+		{
+			"upgrade_cost"				"1"
+		}
+		"ammo_ap_m4"
+		{
+			"upgrade_cost"				"1"
+		}
+
+		// ========================================
+		// HEAVY BARREL
+		// ========================================
+		"barrel_heavybarrel" // old: heavybarrel
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"	  	"1"
+			"team_access"				"security"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_l85a"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_galil_sar"
+			}
+		}
+
+
+
+
+
+		// ========================================
+		// SILENCERS / SUPPRESSORS
+		// ========================================
+		"barrel_silencer_sec1"
+		{
+			"upgrade_cost"				"1"
+			"class_restricted"			"0"
+			"team_access"				"security"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_ump45"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_l1a1"
+
+				//"weapon"				"weapon_galil"
+
+				// insurgent weapons this can show up on
+				// for coop
+				//"weapon"				"weapon_m1a1"
+				//"weapon"				"weapon_sks"
+				//"weapon"				"weapon_mp40"
+				//"weapon"				"weapon_fal"
+				//"weapon"				"weapon_mosin"
+				//"weapon"				"weapon_akm"
+				//"weapon"				"weapon_ak74"
+				//"weapon"				"weapon_aks74u"
+			}
+		}
+		"barrel_silencer_sec2"
+		{
+			"upgrade_cost"				"1"
+			"class_restricted"			"0"
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_mk18"
+
+				"weapon"				"weapon_l85a"
+			}
+		}
+		// ========================================
+		// LASER SIGHTS
+		// ========================================
+		"siderail_lasersight_rail" // old: sec_lasersight_rail
+		{
+			"class_restricted"	"0"
+			"upgrade_cost"		"87"
+
+			"allowed_weapons"
+			{
+				//"weapon"				"weapon_m16a4"
+				//"weapon"				"weapon_m4a1"
+				//"weapon"				"weapon_mk18"
+				"weapon"				"weapon_l85a"
+				//"weapon"				"weapon_m14"
+				//"weapon"				"weapon_ump45"
+			}
+
+		}
+		"siderail_lasersight_band" // old: sec_lasersight_band
+		{
+			"upgrade_cost"		"90"
+
+			"allowed_weapons"
+			{
+				// security
+				//"weapon"				"weapon_galil_sar"
+				//"weapon"				"weapon_mini14"
+				//"weapon"				"weapon_mp5"
+				//"weapon"				"weapon_m249"
+				//"weapon"				"weapon_l1a1"
+
+				// insurgent
+				//"weapon"				"weapon_akm"
+				//"weapon"				"weapon_ak74"
+				//"weapon"				"weapon_aks74u"
+				//"weapon"				"weapon_m1a1"
+				//"weapon"				"weapon_sks"
+				//"weapon"				"weapon_mp40"
+				//"weapon"				"weapon_fal"
+				//"weapon"				"weapon_galil"
+				//"weapon"				"weapon_rpk"
+				//"weapon"				"weapon_sterling"
+			}
+		}
+
+
+
+		// ========================================
+		// FLASHLIGHTS
+		// ========================================
+		"siderail_flashlight_rail" // old: sec_flashlight_rail
+		{
+			"upgrade_cost"		"1"
+			"class_restricted"	"0"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_l85a"
+				"weapon"				"weapon_m4a1"
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_ump45"
+			}
+		}
+		"siderail_flashlight_band" // old: sec_flashlight_band
+		{
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+
+			"allowed_weapons"
+			{
+				// security
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_mp5"
+				"weapon"				"weapon_m249"
+
+				// insurgent
+				"weapon"				"weapon_akm"
+				"weapon"				"weapon_ak74"
+				"weapon"				"weapon_aks74u"
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_mp40"
+				"weapon"				"weapon_fal"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_l1a1"
+				"weapon"				"weapon_rpk"
+				"weapon"				"weapon_sterling"
+			}
+		}
+		"siderail_flashlight_shotgun" // old: sec_flashlight_shotgun
+		{
+			"upgrade_cost"		"1"
+			"class_restricted"	"0"
+			"team_access"				"security, insurgent"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_m40a1"
+				"weapon"				"weapon_toz"
+				"weapon"				"weapon_mosin"
+			}
+		}
+		"siderail_flashlight_pistol" // old: sec_flashlight_pistol
+		{
+			"class_restricted"			"0"
+			"upgrade_cost"				"1"
+			"team_access"				"security, insurgent"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m9"
+				"weapon"				"weapon_m45"
+				"weapon"				"weapon_m1911"
+				"weapon"				"weapon_makarov"
+				"weapon"				"weapon_glock17"
+			}
+		}
+
+
+
+
+
+		// ========================================
+		// FOREGRIPS
+		// ========================================
+
+
+		"underbarrel_foregrip_sec1" // old: sec_foregrip
+		{
+			"upgrade_cost"		"1"
+			"class_restricted"	"0"
+			"import"					"base_foregrip"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m16a4"
+				"weapon"				"weapon_mk18"
+				"weapon"				"weapon_m4a1"
+			}
+			"viewmodel_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/a_foregrip_sec.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+					
+					"scales"
+					{
+						"weapon_m16a4"				"0.5"
+						"weapon_mk18"				"0.5"
+						"weapon_m4a1"				"0.5"
+						"weapon_racr"				"0.5"
+					}
+				}
+			}
+		}
+		"underbarrel_grippod"
+		{
+			"upgrade_cost"				"1"
+			"import"					"base_foregrip"
+			"team_access"				"security"
+
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_l85a"
+			}
+
+			"viewmodel_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/a_foregrip_gri.mdl"
+					"Gesture"				"delta_foregrip"
+					"ActSuffix"				"_FOREGRIP"
+
+					"scales"
+					{
+						"weapon_l85a"               "0.54"
+					}
+				}
+			}
+
+			"world_attachments"
+			{
+				"Foregrip"
+				{
+					"model"					"models/weapons/upgrades/w_foregrip_grip.mdl"
+				}
+		}
+		"underbarrel_foregrip_sec2" // old: sec_foregrip2
+		{
+			"import"					"base_foregrip"
+			"upgrade_cost"		"1"
+			"class_restricted"	"0"
+			
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m14"
+				"weapon"				"weapon_mini14"
+				"weapon"				"weapon_m590"
+				"weapon"				"weapon_galil_sar"
+				"weapon"				"weapon_l1a1"
+			}
+		}
+		"underbarrel_foregrip_ins1"
+		{
+			"upgrade_cost"		"1"
+			"allowed_weapons"
+			{
+				"weapon"				"weapon_m1a1"
+				"weapon"				"weapon_galil"
+				"weapon"				"weapon_sks"
+				"weapon"				"weapon_fal"
+			}
+		}
+	}
+}
+
+// Written by James for James's Co-op
